@@ -1,9 +1,29 @@
 [tool.poetry]
 name = "shiro"
-version = "0.2.0"
+version = "0.2.1"
 description = "JOSE implementation for Python."
 authors = ["Eduardo Rezende <eduardorbr7@gmail.com>"]
 license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/revensky/shiro"
+repository = "https://github.com/revensky/shiro.git"
+keywords = [
+    "JOSE",
+    "Json Web Signature",
+    "Json Web Encryption",
+    "Json Web Key",
+    "Json Web Token"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
+]
+packages = [{ include = "shiro", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.8"
