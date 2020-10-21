@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "shiro"
+version = "0.2.0"
+description = "JOSE implementation for Python."
+authors = ["Eduardo Rezende <eduardorbr7@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+cryptography = "^3.1.1"
+fulldict = "^0.1.0"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.6.0"
+black = "^20.8b1"
+Sphinx = "^3.2.1"
+sphinx-rtd-theme = "^0.5.0"
+rstcheck = "^3.3.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
