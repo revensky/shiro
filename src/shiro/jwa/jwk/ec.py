@@ -8,10 +8,10 @@ from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.asymmetric import ec
 from fulldict import FullDict
+from webtools import b64_to_int, int_to_b64, to_string
 
 from shiro.exceptions import InvalidKey, InvalidSignature, UnsupportedParsingMethod
 from shiro.jwa.jwk.base import JWKAlgorithm
-from shiro.utils import b64_to_int, int_to_b64, to_string
 
 
 @dataclass

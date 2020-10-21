@@ -23,7 +23,7 @@ copyright = "2020, Eduardo Ribeiro Rezende"
 author = "Eduardo Ribeiro Rezende"
 
 # The full version, including alpha/beta/rc tags
-release = "0.2.1"
+release = "0.2.2"
 
 
 # -- General configuration ---------------------------------------------------

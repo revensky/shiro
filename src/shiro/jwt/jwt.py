@@ -2,10 +2,11 @@ from __future__ import annotations
 
 from typing import Any, Union
 
+from webtools import json_dumps, json_loads, to_bytes, to_string
+
 from shiro.jwk import JsonWebKey
 from shiro.jws import JsonWebSignature, JsonWebSignatureHeader
 from shiro.jwt.claims import JsonWebTokenClaims
-from shiro.utils import json_dumps, json_loads, to_bytes, to_string
 
 
 class JsonWebToken:

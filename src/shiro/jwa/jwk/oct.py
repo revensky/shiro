@@ -9,10 +9,10 @@ from cryptography.hazmat.backends import default_backend
 from cryptography.exceptions import InvalidSignature as BaseInvalidSignature
 from cryptography.hazmat.primitives import hmac
 from fulldict import FullDict
+from webtools import base64url_decode, base64url_encode, to_bytes, to_string
 
 from shiro.exceptions import InvalidKey, InvalidSignature, UnsupportedParsingMethod
 from shiro.jwa.jwk.base import JWKAlgorithm
-from shiro.utils import base64url_decode, base64url_encode, to_bytes, to_string
 
 
 @dataclass

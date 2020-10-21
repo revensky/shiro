@@ -1,9 +1,10 @@
 import binascii
 
+from webtools import base64url_decode, base64url_encode
+
 from shiro.exceptions import InvalidSignature
 from shiro.jwa.jws.base import JWSAlgorithm
 from shiro.jwk import JsonWebKey
-from shiro.utils import base64url_decode, base64url_encode
 
 
 class _RSA_PKCS1v15(JWSAlgorithm):

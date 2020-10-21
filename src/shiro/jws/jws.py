@@ -1,9 +1,10 @@
 from __future__ import annotations
 
+from webtools import base64url_decode, base64url_encode, json_dumps, json_loads
+
 from shiro.exceptions import InvalidJWSSerialization, InvalidKey
 from shiro.jwk import JsonWebKey
 from shiro.jws.header import JsonWebSignatureHeader
-from shiro.utils import base64url_decode, base64url_encode, json_dumps, json_loads
 
 
 class JsonWebSignature:
